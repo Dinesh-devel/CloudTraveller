@@ -1,0 +1,231 @@
+body {
+    background-color: #5f7fa5;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+    border-width: 2px;
+    background-color: white;
+    opacity: 80%;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+}
+
+.container img {
+    width: 200px;
+    animation: aero;
+    animation-duration: 4s;
+}
+section h2{
+    text-align: center;
+    background-color: skyblue;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+@keyframes aero {
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.nav a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.select a {
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+
+}
+
+section {
+    display: flex;
+    border-radius: 20px;
+    margin-top: 50px;
+    box-shadow: 2px 2px 5px black;
+}
+
+
+
+form {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+
+}
+
+form select {
+    border-radius: 20px;
+    width: 300px;
+    height: 80px;
+    font-size: 20px;
+
+
+}
+
+.date {
+    border-radius: 20px;
+    border: none;
+    width: 300px;
+    height:80px ;
+    font-size: 20px;
+
+}
+
+.special {
+    color: black;
+
+}
+
+.button {
+
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: wheat;
+
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: cornsilk;
+}
+
+.select a:hover {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px grey;
+    padding: 5px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    
+}
+@media  screen and (max-width: 800px) {
+    form {
+       
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-sizing: content-box;
+        margin: auto;
+       
+        
+    }
+    section{
+        width: 500px;
+        box-sizing: content-box;
+        margin: auto;
+        margin-top: 10px;
+    
+    }
+}
+@media  screen and (max-width: 800px) {
+    form select {
+        padding: 20px;
+        width: 400px;
+    }
+    .date{
+       
+        text-align: center;
+        width: 400px;
+    }
+.button {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: wheat;
+    width: 360px;
+    height: 50px;
+    text-align: center;
+
+}    
+.container h1{
+    font-size: 25px;
+}
+.nav button{
+    font-size: 15px;
+   padding: 10px;
+}
+.container img {
+    width: 170px;
+    animation: aero;
+    animation-duration: 4s;
+}
+}
+
+@media  screen and (max-width: 500px) {
+    form {
+       
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-sizing: content-box;
+        margin: auto;
+       
+        
+    }
+    section{
+        width: 450px;
+        box-sizing: content-box;
+        margin: auto;
+        margin-top: 10px;
+    
+    }
+}
+@media  screen and (max-width: 500px) {
+    form select {
+        padding: 15px;
+        width: 400px;
+    }
+    .date{
+       
+        text-align: center;
+        width: 400px;
+    }
+.button {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: wheat;
+    width: 360px;
+    height: 50px;
+    text-align: center;
+
+}    
+.container h1{
+    font-size: 20px;
+}
+.nav button{
+    font-size: 15px;
+   padding: 5px;
+}
+.container img {
+    width: 110px;
+    animation: aero;
+    animation-duration: 4s;
+}
+}
